@@ -1,0 +1,230 @@
+/*=====FONTS=====*/
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*=====UNIVERSALS=====*/
+.lobster-title {
+  font-family: 'Lobster Two', cursive;
+  color: #F8512F;
+  font-size: 64px;
+  text-shadow: 1px 1px 3px rgb(0,0,0);
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*=====NAVBAR=====*/
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*=====CAROUSEL=====*/
+.carousel, .item {
+  height: 420px;
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+}
+
+#restaurante-logo-hero {
+  height: 210px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#wood-background {
+  background-image: url("../img/wood-2.jpg");
+}
+
+#farm-background {
+  background-image: url("../img/farm-2.jpg");
+}
+
+#restaurant-background {
+  background-image: url("../img/restaurant-2.jpg");
+}
+
+/*=====OUR STORY=====*/
+#our-story-title {
+  margin: 50px auto 0px;
+}
+
+#our-story-subtitle {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#our-story-text {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+#year-text {
+  z-index: -1;
+  position: absolute;
+  font-family: serif;
+  font-size: 128px;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.year-paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #000;
+  font-size: 12px;
+}
+
+/*=====FOOD-REVIEW=====*/
+#food-review {
+  background-image: url("../img/food_review.jpg");
+  height: 400px;
+}
+
+.bg-shaded {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  border-style: none;
+  height: 160;
+  margin-top: 120px;
+}
+
+#food-review-text {
+  font-family: 'Open Sans', sans-serif;
+  color: #F0F0EF;
+  font-size: 20px;
+}
+
+/*=====MENU SECTION=====*/
+#menu-section {
+  background-image: url("../img/black_linen.png");
+  background-size: contain;
+  padding-bottom: 50px;
+}
+
+#menu-title {
+  color: #fff;
+  margin-top: 50px;
+}
+
+#menu-section .nav-tabs li {
+  width: 25%;
+}
+
+.tab-content {
+  background-color: #fff;
+}
+
+#menu-section .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a {
+  color: #F8512F;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.menu-item-col {
+  border: none;
+  padding: 12px;
+}
+
+.thumbnail a>img, .thumbnail>img {
+  width: 100%;
+}
+
+#menu-section .caption {
+  padding: 0px;
+}
+
+#menu-section h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#menu-section p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+/*=====CONTACT US=====*/
+#contact-us-section {
+  background-color: #F8512F;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#contact-us-section h1, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#contact-us-section h1 {
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+#contact-us-section p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+
+#contact-us-section h5 {
+  margin-bottom: 2px;
+}
+
+#contact-us-section form {
+  background-color: #FF6633;
+  padding: 0px 15px 15px 15px;
+}
+
+#contact-us-section label {
+  padding-top: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-control {
+  font-size: 10px;
+  height: 20px;
+  border-radius: 0px;
+}
+
+.required {
+  color: #FF0000;
+}
+
+#contact-us-section p#contact-fine-print {
+  padding-top: 6px;
+  margin-bottom: 0px;
+}
+
+address {
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+}
